@@ -1,0 +1,69 @@
+﻿@page "/ViewGrade"
+@using BlazorServerApp.Data
+@using Domains
+@inject IGradeService GradeService;
+<h3>ViewGrade</h3>
+
+<div>
+    <div class="form-group field">
+        <label>Course Code </label>
+        <input type="text" @bind="courseCode"/>
+    </div>
+
+    <div class="form-group field">
+        <label>Include Total Number Of Students: </label>
+        <input type="checkbox" @bind="includeTotalNumberOfStudents"/>
+        <span> @overviewDto.TotalNumberOfStudents </span>
+    </div>
+
+    <div class="form-group field">
+            <label>Include Total Number of Passed Students: </label>
+            <input type="checkbox" @bind="includeTotalNumberOfPassedStudents"/>
+            <span> @overviewDto.TotalNumberOfPassedStudents </span>
+        </div>
+
+    <div class="form-group field">
+        <label>Include Average Grade Overall: </label>
+        <input type="checkbox" @bind="includeAverageGradeOverall"/>
+        <span> @overviewDto.AvgGradeOverall </span>
+    </div>
+
+    <div class="form-group field">
+        <label>Include Average Grade Of Passed Students: </label>
+        <input type="checkbox" @bind="includeAverageGradeOfPassedStudents"/>
+        <span> @overviewDto.AvgGradeOfPassed </span>
+    </div>
+
+    <div class="form-group field">
+        <label>Include Median Grade: </label>
+        <input type="checkbox" @bind="includeMedianGrade"/>
+        <span> @overviewDto.MedianGrade </span>
+    </div>
+</div>
+
+<div class="button-row">
+    <button @onclick="FetchData" class="btn-outline-primary">Fetch</button>
+</div>
+
+
+@code {
+    private string? courseCode;
+    private StatisticsOverviewDto overviewDto = new StatisticsOverviewDto();
+
+    private bool includeTotalNumberOfStudents;
+    private bool includeTotalNumberOfPassedStudents;
+    private bool includeAverageGradeOverall;
+    private bool includeAverageGradeOfPassedStudents;
+    private bool includeMedianGrade;
+
+
+    private async Task FetchData()
+    {
+        overviewDto = await GradeService.GetCourseStatisticsAsync(courseCode, includeTotalNumberOfStudents,
+            includeTotalNumberOfPassedStudents, includeAverageGradeOverall,
+            includeAverageGradeOfPassedStudents, includeMedianGrade);
+
+        Console.WriteLine(overviewDto.AvgGradeOverall);
+    }
+
+}

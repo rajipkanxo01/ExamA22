@@ -1,0 +1,62 @@
+﻿@page "/CreateStudent"
+@using BlazorServerApp.Data
+@using Domains
+@inject IStudentService StudentService;
+@inject NavigationManager Manager;
+<h3>StudentPage</h3>
+
+<div>
+    <div class="form-group field">
+        <label>Student Name:</label>
+        <input type="text" @bind="name" @bind:event="oninput"/>
+    </div>
+
+    <div class="form-group field">
+        <label>Programme:</label>
+        <input type="text" @bind="programme" @bind:event="oninput"/>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(resultMsg))
+{
+    <label style="color: @color">@resultMsg</label>
+}
+
+<div class="button-row">
+    <button @onclick="Create" class="btn-outline-primary">Create</button>
+</div>
+
+
+@code {
+    private string? name;
+    private string? programme;
+
+    private string? resultMsg;
+    private string? color;
+
+
+    private async Task Create()
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(name)) throw new Exception("Name Cannot Be Empty.");
+            if (string.IsNullOrEmpty(programme)) throw new Exception("Programme Cannot Be Empty.");
+
+            Student student = new Student(name, programme);
+            Student createdStudent = await StudentService.CreateStudentAsync(student);
+
+            resultMsg = "Student Created!!!";
+            color = "Green";
+
+            name = "";
+            programme = "";
+        }
+        catch (Exception e)
+        {
+            resultMsg = e.Message;
+            color = "red";
+            Console.WriteLine(e);
+        }
+    }
+
+}

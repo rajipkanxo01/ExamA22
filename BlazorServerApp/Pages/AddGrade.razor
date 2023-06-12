@@ -1,0 +1,89 @@
+﻿@page "/AddGrade"
+@using Domains
+@using BlazorServerApp.Data
+@inject IStudentService StudentService;
+<h3>AddGrade</h3>
+
+<div>
+    <div class="form-group field">
+        <label>Course Code:</label>
+        <input type="text" @bind="courseCode" maxlength="4" @bind:event="oninput"/>
+    </div>
+
+    <div class="form-group field">
+        <label>Student:</label>
+        <select @bind="selectedStudentId">
+            <option>Choose</option>
+            @foreach (var item in listOfStudents)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group field">
+        <label>Grade:</label>
+        <select @bind="selectedGrade">
+            <option>Choose</option>
+            @foreach (var item in listOfGrades)
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+    </div>
+
+</div>
+
+@if (!string.IsNullOrEmpty(resultMsg))
+{
+    <label style="color: @color">@resultMsg</label>
+}
+
+<div class="button-row">
+    <button @onclick="Create" class="btn-outline-primary">Create</button>
+</div>
+
+@code {
+    private string? courseCode = "";
+    private ICollection<Student> listOfStudents = new List<Student>();
+    private readonly ICollection<int> listOfGrades = new List<int>() { -3, 00, 02, 4, 7, 10, 12 };
+    private int? selectedGrade;
+    private int? selectedStudentId;
+
+    private string? resultMsg = "";
+    private string? color = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        listOfStudents = await StudentService.GetAllStudentsAsync();
+    }
+
+    private async Task Create()
+    {
+        try
+        {
+            if (courseCode.Length != 4) throw new Exception("Course Code Must Be 4 Digits.");
+            if (selectedGrade == null) throw new Exception("Grade Must Be Selected!");
+            if (selectedStudentId == null) throw new Exception("Student Must Be Selected!");
+
+            GradeInCourse gradeInCourse = new GradeInCourse
+            {
+                Grade = (int)selectedGrade,
+                CourseCode = courseCode
+            };
+            await StudentService.AddGradeToStudentAsync((int)selectedStudentId, gradeInCourse);
+            
+            resultMsg = "Grade Added";
+            color = "Green";
+
+            courseCode = "";
+        }
+        catch (Exception e)
+        {
+            resultMsg = e.Message;
+            color = "Red";
+            Console.WriteLine(e);
+        }
+    }
+
+}
