@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fqOyf9PsabS5X3PEJaYNDDnFYOGa1RVTEdIn7Dlq4kz1rpJ7zSSIGKrubWBp2tMIjQKGRsKAy+cfxYP4uBvpHQ==",
+  "dgSpecHash": "9a+O50cT+eKFnNGJLK4bap8iUnGCrFbw1f0MxA65B0cYZ754b4O63srdxZroTewHxOQY4HcR5zDBZoF9p1aZFw==",
   "success": true,
-  "projectFilePath": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\BlazorServerApp.csproj",
+  "projectFilePath": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\BlazorServerApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

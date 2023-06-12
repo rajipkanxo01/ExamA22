@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zy0q44TiS8rNNikCd94ZS79lfXjVryPUOAuJ6NpcL3w=",
+  "Hash": "Swl+E+/rYYcc9ErEziysxwEi4HkJhA03HiPEjfg2198=",
   "Source": "BlazorServerApp",
   "BasePath": "_content/BlazorServerApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorServerApp\\wwwroot",
       "Source": "BlazorServerApp",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorServerApp.styles.css",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorServerApp.styles.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "BlazorServerApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorServerApp.styles.css"
+      "OriginalItemSpec": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorServerApp.styles.css"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "BlazorServerApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\css\\site.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\favicon.png",
+      "Identity": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\favicon.png",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

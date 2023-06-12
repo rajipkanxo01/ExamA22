@@ -49,18 +49,21 @@ public class DataAccess : IDataAccess
     {
         try
         {
-            Student? students = await context.Students!.FindAsync(studentId);
+            Student? students = await context.Students!.Include(student => student.Grades)
+                .FirstOrDefaultAsync(student => student.Id == studentId);
             List<GradeInCourse> courses = students!.Grades.ToList();
 
-            if (courses.Contains(grade))
+
+            GradeInCourse? gradeInCourse =
+                courses.FirstOrDefault(course => course.CourseCode!.Equals(grade.CourseCode));
+
+            if (gradeInCourse == null)
             {
-                GradeInCourse? gradeInCourse =
-                    courses.FirstOrDefault(course => course.CourseCode!.Equals(grade.CourseCode));
-                gradeInCourse!.Grade = grade.Grade;
+                students!.Grades.Add(grade);
             }
             else
             {
-                students!.Grades.Add(grade);
+                gradeInCourse.Grade = grade.Grade;
             }
 
             Console.WriteLine($"At Data Access Add Grade: {grade.CourseCode}");
@@ -106,14 +109,14 @@ public class DataAccess : IDataAccess
 
         if (medianGrade)
         {
-            IOrderedQueryable<GradeInCourse> orderedCourses = gradeInCourses.OrderBy(course => course.Grade);
-            int number = orderedCourses.Count() / 2;
-            if (orderedCourses.Count() / 2 == 0)
+            List<GradeInCourse> orderedCourses = await gradeInCourses.OrderBy(course => course.Grade).ToListAsync();
+            int number = orderedCourses.Count / 2;
+            if (orderedCourses.Count % 2 != 0)
             {
                 number++;
             }
 
-            statisticsOverviewDto.MedianGrade = number;
+            statisticsOverviewDto.MedianGrade = orderedCourses.ElementAt(number).Grade;
         }
 
         return statisticsOverviewDto;

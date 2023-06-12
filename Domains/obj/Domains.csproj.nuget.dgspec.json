@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\Domains\\Domains.csproj": {}
+    "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\Domains\\Domains.csproj": {}
   },
   "projects": {
-    "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\Domains\\Domains.csproj": {
+    "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\Domains\\Domains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\Domains\\Domains.csproj",
+        "projectUniqueName": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\Domains\\Domains.csproj",
         "projectName": "Domains",
-        "projectPath": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\Domains\\Domains.csproj",
+        "projectPath": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\Domains\\Domains.csproj",
         "packagesPath": "C:\\Users\\pdlra\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\DNP Exam A22\\Domains\\obj\\",
+        "outputPath": "D:\\VIA\\SEM-3\\Projects\\DNP1\\ExamPractice\\Exam A22\\Domains\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pdlra\\AppData\\Roaming\\NuGet\\NuGet.Config",
